@@ -1,0 +1,187 @@
+body{
+	background-color: #DBDBDB;
+}
+
+#wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	}
+
+#top{
+	width: 100px;
+	height: 100px;
+	z-index:1;
+	float: left;
+	}
+	
+#logo{
+	width: 220px;
+	height: 220px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
+#header{
+	width: 795px;
+	height: 120px;
+	float: left;
+	background-color: #3366cc;
+}
+#header2{
+	width: 105px;
+	height: 120px;
+	float: left;
+}
+
+#headercircle{
+	width: 220px;
+	height: 220px;
+	background-color: #3366cc;
+	border-radius: 50%;
+	z-index: 0;
+	float: right;
+}
+
+#downlogo{
+	height: 103px;
+	width: 190px;
+	float: left;
+	background-color: #3366cc;
+	margin-top: -3px;
+}
+
+#nav{
+	width: 592px;
+	height: 40px;
+	background-color: #3366cc;
+	float: left;
+	}
+
+#nav2{
+	width: 28px;
+	height: 40px;
+	background-color: #3366cc;
+	float: left;
+	}
+	
+#navwrapper{
+	float: right;
+}
+	
+#frame{
+	width: 620px;
+	height: 710px;
+	float: right;
+	background-color: #000000;
+	margin-top: -60px;
+}
+
+
+#bottom{
+	width: 1000px;
+	height: 50px;
+	background-color: #3366cc;
+	float: right;
+}
+	
+	
+#leftside{
+	float: left;
+	width: 190px;
+	height: 650px;
+}
+	
+.infobig1{
+	height: 250px;
+	width: 190px;
+	background-color: #ffeb00;
+	float: left;
+}
+
+#infosmall1{
+	height: 150px;
+	width: 190px;
+	background-color: #3366cc;
+	float: left;
+}
+
+#rightside{
+	float: right;
+	width: 190px;
+	height: 650px;
+}
+
+.infobig2{
+	height: 250px;
+	width: 190px;
+	background-color: #ffeb00;
+	float: right;
+}
+
+#infosmall2{
+	height: 150px;
+	width: 190px;
+	background-color: #3366cc;
+	float: right;
+}
+
+
+ul {
+	font-family: Arial, Verdana;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul li {
+	display: block;
+	position: relative;
+	float: left;
+}
+
+li ul { 
+	display: none;
+}
+	
+ul li a {
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	border-top: 1px solid #ffeb00;
+	height: 28px;
+	background: #3366cc;
+	margin-left: -1px;
+	white-space: nowrap;
+	padding: 10px 13px 0px 14px;
+}
+
+#menu > li > a {
+	border: 1px solid #ffeb00;
+}
+
+ul li a:hover {
+	background: #617F8A;
+}
+
+li:hover ul {
+	display: block;
+	position: absolute;
+	margin-top: -1px;
+}
+
+li:hover li {
+  float: none;
+  font-size: 11px;
+}
+
+li:hover a {
+	background: #617F8A;
+}
+	
+li:hover li a:hover {
+	background: #95A9B1;
+}
